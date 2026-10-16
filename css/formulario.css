@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background: rgb(172, 172, 172);
+}
+label{
+    display: block;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.container{
+    
+    max-width: 700px;
+  
+    margin:  auto;
+}
+input,
+select{
+    width: 100%;
+    padding:8px;
+   
+}
+.btn-cadastro, 
+.btn-limpar
+{
+    background-color: rgb(64, 69, 78);
+    padding: 10px;
+    border:0;
+    margin:10px;
+    border-radius: 6px;
+    cursor:pointer;
+    color: white;
+
+}
+.btn-limpar{
+    background-color: rgb(205, 212, 222);
+    color: black;
+}

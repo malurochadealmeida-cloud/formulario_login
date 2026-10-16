@@ -1,0 +1,58 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color:rgb(172, 172, 172);
+}
+
+.container{
+max-width: 500px;
+background-color: white;
+margin: 0 auto;
+padding:20px;
+border-radius: 10px;
+
+}
+
+.container h1{
+    text-align: center;
+}
+
+.form-control{
+
+    margin-bottom: 15px;
+}
+
+/* Compos de texto; e-mail,senha e select*/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+
+    width: 100%;
+    padding: 8px;
+    border-radius:5px;
+    border:1px solid #dedede;
+    margin-top: 8px;
+
+}
+
+.opcoes label{
+
+    display:inline;
+    margin-right: 10px;
+}
+
+button{
+    padding:10px;
+    width: 95%;
+    margin:10px;
+    background-color: rgb(71, 71, 78);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: 1.0s all;
+}
+button:hover{
+    background-color: #272424;
+}
+
